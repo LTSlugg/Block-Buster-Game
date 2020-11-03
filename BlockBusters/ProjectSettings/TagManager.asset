@@ -47,6 +47,9 @@ TagManager:
   - name: BG-GFX
     uniqueID: 234677543
     locked: 0
+  - name: GameLayer
+    uniqueID: 749073579
+    locked: 0
   - name: BallLayer
     uniqueID: 2780058147
     locked: 0
