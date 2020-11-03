@@ -15,7 +15,7 @@ public static class GameSession
     public static event Action eHealthDecrease;
     
     public static int scoreAmount;
-    public static int healthPoints;
+    public static int healthPoints = 3;
 
 
     public static void AddToScore(int pointAmount)

@@ -6,6 +6,8 @@ using UnityEngine;
  * Handles all of the Logic behind moving the player and allowing them to change states as they pickup powerups
  */
 
+//TODO: Create a clamp algorithm that will keep the playerpaddle from leaving the bounds of the screen
+
 public class PlayerControl : MonoBehaviour
 {
     Rigidbody2D _rgbd2;
@@ -29,6 +31,6 @@ public class PlayerControl : MonoBehaviour
     private void InputChecker()
     {
         _rgbd2.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), 0);
-        transform.eulerAngles = new Vector3(0, 0, Input.GetAxis("Horizontal") * -10);
+        transform.eulerAngles = new Vector3(0, 0, Input.GetAxisRaw("Horizontal") * -10);
     }
 }

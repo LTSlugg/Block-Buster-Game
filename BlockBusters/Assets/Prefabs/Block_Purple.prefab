@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b61552c46569f94e8cce75faf0919d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifePoints: 3
+  lifePoints: 2
   pointWorthAmount: 2000
 --- !u!60 &-3626329721044217404
 PolygonCollider2D:

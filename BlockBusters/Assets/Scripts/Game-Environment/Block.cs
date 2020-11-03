@@ -29,7 +29,7 @@ public class Block : MonoBehaviour
     //Will call this when the ball exits the area of the Collider on this gameObject
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Ball")
+        if (collision.tag == "Ball" || collision.tag == "MinionBall")
         {
             lifePoints--;
         
