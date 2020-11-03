@@ -9,11 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2230260326559651286}
+  - component: {fileID: 6915484579213677936}
   - component: {fileID: 2230260326559651282}
   - component: {fileID: 2230260326559651287}
-  - component: {fileID: 2230260326559651284}
-  - component: {fileID: 2230260326559651283}
   - component: {fileID: 2230260326559651285}
+  - component: {fileID: 5905346654233546943}
+  - component: {fileID: 214897514372737915}
   m_Layer: 0
   m_Name: Block_Blue
   m_TagString: Block
@@ -35,6 +36,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6915484579213677936
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2230260326559651272}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d958f3a21e6f71d40ba3b669091df0a4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &2230260326559651282
 Rigidbody2D:
   serializedVersion: 4
@@ -107,8 +127,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2230260326559651284
-BoxCollider2D:
+--- !u!114 &2230260326559651285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2230260326559651272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b61552c46569f94e8cce75faf0919d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifePoints: 2
+  pointWorthAmount: 1000
+--- !u!60 &5905346654233546943
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -130,11 +164,16 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.5}
-  m_EdgeRadius: 0
---- !u!61 &2230260326559651283
-BoxCollider2D:
+  m_Points:
+    m_Paths:
+    - - {x: 0.011510074, y: 0.15414228}
+      - {x: -0.41122663, y: 0.16451256}
+      - {x: -0.4072572, y: -0.1456904}
+      - {x: 0.0073694587, y: -0.14948894}
+      - {x: 0.41984957, y: -0.1570863}
+      - {x: 0.42381892, y: 0.17625022}
+--- !u!60 &214897514372737915
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -156,19 +195,11 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.5}
-  m_EdgeRadius: 0
---- !u!114 &2230260326559651285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2230260326559651272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b61552c46569f94e8cce75faf0919d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifePoints: 1
+  m_Points:
+    m_Paths:
+    - - {x: 0.011510074, y: 0.15414228}
+      - {x: -0.41122663, y: 0.16451256}
+      - {x: -0.4072572, y: -0.1456904}
+      - {x: 0.0073694587, y: -0.14948894}
+      - {x: 0.41984957, y: -0.1570863}
+      - {x: 0.42381892, y: 0.17625022}

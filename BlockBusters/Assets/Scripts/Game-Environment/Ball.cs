@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
- * The Ball script, handles the balls interactions with the paddles and blocks as well as any additional logic to prevent bugs and issues.
+ * The Ball script, for now clamps the ball max velocity
  */
 
 public class Ball : MonoBehaviour
 {
     Rigidbody2D _rgbd2;
-    [SerializeField] float clampRange = 10f;
+    [SerializeField] float clampRange = 8f;
 
     // Start is called before the first frame update
     void Start()
@@ -17,13 +17,13 @@ public class Ball : MonoBehaviour
         _rgbd2 = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    // FixedUpdate is a monobehaviour function
     void FixedUpdate()
     {
         ClampMoveVelocity();
     }
 
-
+    //This algorithm keeps the Ball from bouncing its rigidbody velocity above the clampRange variable
     private void ClampMoveVelocity()
     {
         _rgbd2.velocity = Vector3.ClampMagnitude(_rgbd2.velocity, clampRange);
