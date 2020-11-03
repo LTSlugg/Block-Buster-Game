@@ -12,6 +12,8 @@ public class Block : MonoBehaviour
     
     [SerializeField] int lifePoints = 1;
     [SerializeField] int pointWorthAmount = 10;
+    [SerializeField] GameObject deathExplosion; //Lets create a dependancy, why not. We've been good with our coding so far. This is plugged in VIA Inspector.
+
     private bool isShaking = false;
 
     private void Start()
@@ -47,8 +49,11 @@ public class Block : MonoBehaviour
         {
             this.gameObject.SetActive(false);
             GameSession.AddToScore(pointWorthAmount);
-            //TODO: Create a death explosion effect
-            Destroy(this.gameObject, 0.03f);
+            
+            //Creates a instance of this effect to keep from destroying when this gameObject dies
+            GameObject starDeathExplosion = Instantiate(deathExplosion, this.transform.position, Quaternion.identity) as GameObject; 
+            
+            Destroy(this.gameObject, .03f);
         }
     }
 

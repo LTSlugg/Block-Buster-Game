@@ -8,6 +8,9 @@ using UnityEngine;
  * to track health points and score amount and react when these elements are changed.
  */
 
+//TODO: Create a GameSceneManager class to allow the player to switch between scenes
+//TODO: Create Game Over and Start Screen
+
 public static class GameSession
 {
     public static event Action eScoreChange;

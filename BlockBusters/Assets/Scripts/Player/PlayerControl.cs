@@ -6,8 +6,6 @@ using UnityEngine;
  * Handles all of the Logic behind moving the player and allowing them to change states as they pickup powerups
  */
 
-//TODO: Create a clamp algorithm that will keep the playerpaddle from leaving the bounds of the screen
-
 public class PlayerControl : MonoBehaviour
 {
     Rigidbody2D _rgbd2;

@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * Handles the logic behind spawning the number of Hearts on the UI and making them despawn when the player consequently loses a point of HP
+ * by tracking the HP through the GameSession and using Observer pattern event sys the HeartUpdate() Function listens in and updates accordingly.
+ */
+
 public class HealthManager : MonoBehaviour
 {
     private int maxHealth = 7;

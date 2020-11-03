@@ -44,6 +44,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG-GFX
+    uniqueID: 234677543
+    locked: 0
   - name: BallLayer
     uniqueID: 2780058147
+    locked: 0
+  - name: FG-Effects
+    uniqueID: 803587369
+    locked: 0
+  - name: FG-GFX
+    uniqueID: 3375459231
     locked: 0
