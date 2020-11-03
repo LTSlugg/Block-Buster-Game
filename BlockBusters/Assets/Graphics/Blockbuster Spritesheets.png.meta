@@ -1,0 +1,1823 @@
+fileFormatVersion: 2
+guid: c538d7fd722bcdd47a84a62fc90e4efd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5516648126004990474
+    second: Blockbuster Spritesheets_0
+  - first:
+      213: 1070897773750980353
+    second: Blockbuster Spritesheets_1
+  - first:
+      213: -2060589015213776831
+    second: Blockbuster Spritesheets_2
+  - first:
+      213: 5062869972743943043
+    second: Blockbuster Spritesheets_3
+  - first:
+      213: 1341088980724745474
+    second: Blockbuster Spritesheets_4
+  - first:
+      213: -2068280058855449321
+    second: Blockbuster Spritesheets_5
+  - first:
+      213: -1562559226563112160
+    second: Blockbuster Spritesheets_6
+  - first:
+      213: 786995988547177203
+    second: Blockbuster Spritesheets_7
+  - first:
+      213: -1121433039667523514
+    second: Blockbuster Spritesheets_8
+  - first:
+      213: 5747550128386095934
+    second: Blockbuster Spritesheets_9
+  - first:
+      213: -1471786341304221240
+    second: Blockbuster Spritesheets_10
+  - first:
+      213: -2393392662146804106
+    second: Blockbuster Spritesheets_11
+  - first:
+      213: -7946483003761818347
+    second: Blockbuster Spritesheets_12
+  - first:
+      213: -6872838945439347816
+    second: Blockbuster Spritesheets_13
+  - first:
+      213: -2228047581324311743
+    second: Blockbuster Spritesheets_14
+  - first:
+      213: 4579132430415890513
+    second: Blockbuster Spritesheets_15
+  - first:
+      213: 268509481719087365
+    second: Blockbuster Spritesheets_16
+  - first:
+      213: 2495843030009205147
+    second: Blockbuster Spritesheets_17
+  - first:
+      213: 5597646148692575566
+    second: Blockbuster Spritesheets_18
+  - first:
+      213: -995245930516852361
+    second: Blockbuster Spritesheets_19
+  - first:
+      213: 4922340366032435129
+    second: Blockbuster Spritesheets_20
+  - first:
+      213: -4787124882795611180
+    second: Blockbuster Spritesheets_21
+  - first:
+      213: 2210874211533578902
+    second: Blockbuster Spritesheets_22
+  - first:
+      213: -6789276181464925099
+    second: Blockbuster Spritesheets_23
+  - first:
+      213: 4020774519307755762
+    second: Blockbuster Spritesheets_24
+  - first:
+      213: 1248835809069045509
+    second: Blockbuster Spritesheets_25
+  - first:
+      213: -2781121467865248189
+    second: Blockbuster Spritesheets_26
+  - first:
+      213: -8419804903783977621
+    second: Blockbuster Spritesheets_27
+  - first:
+      213: -7817317927724290544
+    second: Blockbuster Spritesheets_28
+  - first:
+      213: 7359956521330700575
+    second: Blockbuster Spritesheets_29
+  - first:
+      213: 2805477591143868541
+    second: Blockbuster Spritesheets_30
+  - first:
+      213: -4727032669780121155
+    second: Blockbuster Spritesheets_31
+  - first:
+      213: -2546450544132832758
+    second: Blockbuster Spritesheets_32
+  - first:
+      213: 4837262251854266007
+    second: Blockbuster Spritesheets_33
+  - first:
+      213: 421910502307531855
+    second: Blockbuster Spritesheets_34
+  - first:
+      213: 7282351183193440610
+    second: Blockbuster Spritesheets_35
+  - first:
+      213: 254501896036684363
+    second: Blockbuster Spritesheets_36
+  - first:
+      213: -4235202240958532309
+    second: Blockbuster Spritesheets_37
+  - first:
+      213: 1827692044696418645
+    second: Blockbuster Spritesheets_38
+  - first:
+      213: 592924741473042
+    second: Blockbuster Spritesheets_39
+  - first:
+      213: -6396868371349367885
+    second: Blockbuster Spritesheets_40
+  - first:
+      213: 6453369678015325985
+    second: Blockbuster Spritesheets_41
+  - first:
+      213: 3999314877228047035
+    second: Blockbuster Spritesheets_42
+  - first:
+      213: -2380874352414298927
+    second: Blockbuster Spritesheets_43
+  - first:
+      213: 7913403295103980005
+    second: Blockbuster Spritesheets_44
+  - first:
+      213: 625641691803865576
+    second: Blockbuster Spritesheets_45
+  - first:
+      213: -4175272490241832256
+    second: Blockbuster Spritesheets_46
+  - first:
+      213: -6328761510122436961
+    second: Blockbuster Spritesheets_47
+  - first:
+      213: -2796816434411218684
+    second: Blockbuster Spritesheets_48
+  - first:
+      213: -4137359203383787715
+    second: Blockbuster Spritesheets_49
+  - first:
+      213: -1972663944507529115
+    second: Blockbuster Spritesheets_50
+  - first:
+      213: 7800275443640850186
+    second: Blockbuster Spritesheets_51
+  - first:
+      213: 4565552483679413224
+    second: Blockbuster Spritesheets_52
+  - first:
+      213: -3316899323954017724
+    second: Blockbuster Spritesheets_53
+  - first:
+      213: -5874764313863581158
+    second: Blockbuster Spritesheets_54
+  - first:
+      213: -2480689218612431377
+    second: Blockbuster Spritesheets_55
+  - first:
+      213: 1126990477269726091
+    second: Blockbuster Spritesheets_56
+  - first:
+      213: -3041714433551930840
+    second: Blockbuster Spritesheets_57
+  - first:
+      213: 5793043203111992974
+    second: Blockbuster Spritesheets_58
+  - first:
+      213: -4432965851613178384
+    second: Blockbuster Spritesheets_59
+  - first:
+      213: 8252106446253348225
+    second: Blockbuster Spritesheets_60
+  - first:
+      213: 7477962676175006072
+    second: Blockbuster Spritesheets_61
+  - first:
+      213: -8351095598924881179
+    second: Blockbuster Spritesheets_62
+  - first:
+      213: 5528020548250953531
+    second: Blockbuster Spritesheets_63
+  - first:
+      213: -8845501022929514203
+    second: Blockbuster Spritesheets_64
+  - first:
+      213: -1766451620935384018
+    second: Blockbuster Spritesheets_65
+  - first:
+      213: -2725336103296834940
+    second: Blockbuster Spritesheets_66
+  - first:
+      213: -1238708420502293785
+    second: Blockbuster Spritesheets_67
+  - first:
+      213: 5381501238446325809
+    second: Blockbuster Spritesheets_68
+  - first:
+      213: -1653083878255191825
+    second: Blockbuster Spritesheets_69
+  - first:
+      213: -1813339135028581533
+    second: Blockbuster Spritesheets_70
+  - first:
+      213: 627709779752878843
+    second: Blockbuster Spritesheets_71
+  - first:
+      213: -7758863926846936841
+    second: Blockbuster Spritesheets_72
+  - first:
+      213: -7949342725263607037
+    second: Blockbuster Spritesheets_73
+  - first:
+      213: 986751960982698460
+    second: Blockbuster Spritesheets_74
+  - first:
+      213: 3453793602770791512
+    second: Blockbuster Spritesheets_75
+  - first:
+      213: -6594936914493139439
+    second: Blockbuster Spritesheets_76
+  - first:
+      213: -2976529941307446849
+    second: Blockbuster Spritesheets_77
+  - first:
+      213: 6751490378329054235
+    second: Blockbuster Spritesheets_78
+  - first:
+      213: 1046676058466370701
+    second: Blockbuster Spritesheets_79
+  - first:
+      213: 7573051097750569652
+    second: Blockbuster Spritesheets_80
+  - first:
+      213: -8795168421944702497
+    second: Blockbuster Spritesheets_81
+  - first:
+      213: -5879801609477328252
+    second: Blockbuster Spritesheets_82
+  - first:
+      213: -5922876292774852257
+    second: Blockbuster Spritesheets_83
+  - first:
+      213: 1891341874218840335
+    second: Blockbuster Spritesheets_84
+  - first:
+      213: 2964095862043143583
+    second: Blockbuster Spritesheets_85
+  - first:
+      213: 197968755495049322
+    second: Blockbuster Spritesheets_86
+  - first:
+      213: 813149478067317480
+    second: Blockbuster Spritesheets_87
+  - first:
+      213: 1592629957476513519
+    second: Blockbuster Spritesheets_88
+  - first:
+      213: -3934751420418967982
+    second: Blockbuster Spritesheets_89
+  - first:
+      213: -5181423281147187438
+    second: Blockbuster Spritesheets_90
+  - first:
+      213: -7147417697487016929
+    second: Blockbuster Spritesheets_91
+  - first:
+      213: -7304557429675384714
+    second: Blockbuster Spritesheets_92
+  - first:
+      213: -353151188940957610
+    second: Blockbuster Spritesheets_93
+  - first:
+      213: -302860490885404808
+    second: Blockbuster Spritesheets_94
+  - first:
+      213: -2735460273895819223
+    second: Blockbuster Spritesheets_95
+  - first:
+      213: 772152054413116725
+    second: Blockbuster Spritesheets_96
+  - first:
+      213: 6221217047270753685
+    second: Blockbuster Spritesheets_97
+  - first:
+      213: 1482644395852748785
+    second: Blockbuster Spritesheets_98
+  - first:
+      213: -953273397994463022
+    second: Blockbuster Spritesheets_99
+  - first:
+      213: 1871365806937584353
+    second: Blockbuster Spritesheets_100
+  - first:
+      213: -2779669492793623960
+    second: Blockbuster Spritesheets_101
+  - first:
+      213: 2751851997043274460
+    second: Blockbuster Spritesheets_102
+  - first:
+      213: -6271465962145645055
+    second: Blockbuster Spritesheets_103
+  - first:
+      213: -1977275717494776469
+    second: Blockbuster Spritesheets_104
+  - first:
+      213: 553396705468903022
+    second: Blockbuster Spritesheets_105
+  - first:
+      213: 8219220910587751842
+    second: Blockbuster Spritesheets_106
+  - first:
+      213: 5500977916982174395
+    second: Blockbuster Spritesheets_107
+  - first:
+      213: -7921786765295808253
+    second: Blockbuster Spritesheets_108
+  - first:
+      213: -426579875546594152
+    second: Blockbuster Spritesheets_109
+  - first:
+      213: 1970242725951897123
+    second: Blockbuster Spritesheets_110
+  - first:
+      213: 477828096795463719
+    second: Blockbuster Spritesheets_111
+  - first:
+      213: -199683543638776947
+    second: Blockbuster Spritesheets_112
+  - first:
+      213: 241096267048732306
+    second: Blockbuster Spritesheets_113
+  - first:
+      213: 4834440298485615173
+    second: Blockbuster Spritesheets_114
+  - first:
+      213: 5350895460877208178
+    second: Blockbuster Spritesheets_115
+  - first:
+      213: 6056614797174911605
+    second: Blockbuster Spritesheets_116
+  - first:
+      213: -454691122695503100
+    second: Blockbuster Spritesheets_117
+  - first:
+      213: -8090911268784301685
+    second: Blockbuster Spritesheets_118
+  - first:
+      213: -7197433786571605184
+    second: Blockbuster Spritesheets_119
+  - first:
+      213: 6415443503476783433
+    second: Blockbuster Spritesheets_120
+  - first:
+      213: 4734280515104919943
+    second: Blockbuster Spritesheets_121
+  - first:
+      213: 8727825278749687312
+    second: Blockbuster Spritesheets_122
+  - first:
+      213: -4158102387004652905
+    second: Blockbuster Spritesheets_123
+  - first:
+      213: -6050078202064135081
+    second: Blockbuster Spritesheets_124
+  - first:
+      213: 2735488605394276489
+    second: Blockbuster Spritesheets_125
+  - first:
+      213: 8724793028581850964
+    second: Blockbuster Spritesheets_126
+  - first:
+      213: 2341195418223927661
+    second: Blockbuster Spritesheets_127
+  - first:
+      213: 522979252567063932
+    second: Blockbuster Spritesheets_128
+  - first:
+      213: 4250945669620587097
+    second: Blockbuster Spritesheets_129
+  - first:
+      213: 7933964060418818424
+    second: Blockbuster Spritesheets_130
+  - first:
+      213: -8931124398166091074
+    second: Blockbuster Spritesheets_131
+  - first:
+      213: 1824583478448098940
+    second: Blockbuster Spritesheets_132
+  - first:
+      213: 5523629940476110741
+    second: Blockbuster Spritesheets_133
+  - first:
+      213: -4549176837427840778
+    second: Blockbuster Spritesheets_134
+  - first:
+      213: -1538671613607531146
+    second: Blockbuster Spritesheets_135
+  - first:
+      213: 1176604943508213931
+    second: Blockbuster Spritesheets_136
+  - first:
+      213: -7161022543761620155
+    second: Blockbuster Spritesheets_137
+  - first:
+      213: -599939007061157391
+    second: Blockbuster Spritesheets_138
+  - first:
+      213: 6638804419223510805
+    second: Blockbuster Spritesheets_139
+  - first:
+      213: 4448023875779492785
+    second: Blockbuster Spritesheets_140
+  - first:
+      213: 8494948685131424255
+    second: Blockbuster Spritesheets_141
+  - first:
+      213: 5779199030129454665
+    second: Blockbuster Spritesheets_142
+  - first:
+      213: 4578534831545881933
+    second: Blockbuster Spritesheets_143
+  - first:
+      213: 7862372267171229298
+    second: Blockbuster Spritesheets_144
+  - first:
+      213: 5296156396069053180
+    second: Blockbuster Spritesheets_145
+  - first:
+      213: -5058059512359259983
+    second: Blockbuster Spritesheets_146
+  - first:
+      213: -5050791707642935620
+    second: Blockbuster Spritesheets_147
+  - first:
+      213: -746366417458357299
+    second: Blockbuster Spritesheets_148
+  - first:
+      213: 6889233500670292100
+    second: Blockbuster Spritesheets_149
+  - first:
+      213: -4346941286854516783
+    second: Blockbuster Spritesheets_150
+  - first:
+      213: -6241870577470855754
+    second: Blockbuster Spritesheets_151
+  - first:
+      213: 7453353076477195302
+    second: Blockbuster Spritesheets_152
+  - first:
+      213: 3317335122353073461
+    second: Blockbuster Spritesheets_153
+  - first:
+      213: 6654022478177471709
+    second: Blockbuster Spritesheets_154
+  - first:
+      213: 1807953595404562330
+    second: Blockbuster Spritesheets_155
+  - first:
+      213: -7903436539988089202
+    second: Blockbuster Spritesheets_156
+  - first:
+      213: 1500339846522973550
+    second: Blockbuster Spritesheets_157
+  - first:
+      213: -1391288645640420576
+    second: Blockbuster Spritesheets_158
+  - first:
+      213: -1347067971064135315
+    second: Blockbuster Spritesheets_159
+  - first:
+      213: 3600972463632686565
+    second: Blockbuster Spritesheets_160
+  - first:
+      213: 4851154718739017368
+    second: Blockbuster Spritesheets_161
+  - first:
+      213: 3911589603883651473
+    second: Blockbuster Spritesheets_162
+  - first:
+      213: -4492931984295625136
+    second: Blockbuster Spritesheets_163
+  - first:
+      213: -6774298621594187609
+    second: Blockbuster Spritesheets_164
+  - first:
+      213: -1111405680533801348
+    second: Blockbuster Spritesheets_165
+  - first:
+      213: -7736945645026349158
+    second: Blockbuster Spritesheets_166
+  - first:
+      213: 487009162564982841
+    second: Blockbuster Spritesheets_167
+  - first:
+      213: 5267709764738680568
+    second: Blockbuster Spritesheets_168
+  - first:
+      213: 6498110004649373372
+    second: Blockbuster Spritesheets_169
+  - first:
+      213: -144265564900285299
+    second: Blockbuster Spritesheets_170
+  - first:
+      213: -4386707470353269546
+    second: Blockbuster Spritesheets_171
+  - first:
+      213: -5079777264275228934
+    second: Blockbuster Spritesheets_172
+  - first:
+      213: 4906365006172466830
+    second: Blockbuster Spritesheets_173
+  - first:
+      213: 8234551133728967741
+    second: Blockbuster Spritesheets_174
+  - first:
+      213: 7804908487214122485
+    second: Blockbuster Spritesheets_175
+  - first:
+      213: -3524516971248657352
+    second: Blockbuster Spritesheets_176
+  - first:
+      213: 7335984934322938722
+    second: Blockbuster Spritesheets_177
+  - first:
+      213: 1959548155670568767
+    second: Blockbuster Spritesheets_178
+  - first:
+      213: -4421372933918853809
+    second: Blockbuster Spritesheets_179
+  - first:
+      213: -8479688497691560552
+    second: Blockbuster Spritesheets_180
+  - first:
+      213: -8806297505068426818
+    second: Blockbuster Spritesheets_181
+  - first:
+      213: 793767589974785464
+    second: Blockbuster Spritesheets_182
+  - first:
+      213: 2317085199563378579
+    second: Blockbuster Spritesheets_183
+  - first:
+      213: -8898088034365478957
+    second: Blockbuster Spritesheets_184
+  - first:
+      213: -2162603389168227331
+    second: Blockbuster Spritesheets_185
+  - first:
+      213: -2194613930840087932
+    second: Blockbuster Spritesheets_186
+  - first:
+      213: -4831968296912711439
+    second: Blockbuster Spritesheets_187
+  - first:
+      213: -8114565107846488893
+    second: Blockbuster Spritesheets_188
+  - first:
+      213: -8398721162281954221
+    second: Blockbuster Spritesheets_189
+  - first:
+      213: 2508998580124551226
+    second: Blockbuster Spritesheets_190
+  - first:
+      213: 6927781226668387762
+    second: Blockbuster Spritesheets_191
+  - first:
+      213: -6389190712359964373
+    second: Blockbuster Spritesheets_192
+  - first:
+      213: -2441893193464223378
+    second: Blockbuster Spritesheets_193
+  - first:
+      213: -2566556372483284222
+    second: Blockbuster Spritesheets_194
+  - first:
+      213: 1186542429952370891
+    second: Blockbuster Spritesheets_195
+  - first:
+      213: -5051266840255608964
+    second: Blockbuster Spritesheets_196
+  - first:
+      213: 8350185401859037226
+    second: Blockbuster Spritesheets_197
+  - first:
+      213: 2852501580837081154
+    second: Blockbuster Spritesheets_198
+  - first:
+      213: 1495416131274738747
+    second: Blockbuster Spritesheets_199
+  - first:
+      213: -7742941123402205585
+    second: Blockbuster Spritesheets_200
+  - first:
+      213: 7290661665689845783
+    second: Blockbuster Spritesheets_201
+  - first:
+      213: -395137188040147792
+    second: Blockbuster Spritesheets_202
+  - first:
+      213: -1074705556760781960
+    second: Blockbuster Spritesheets_203
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a021a5dfd321f8c40800000000000000
+      internalID: 5516648126004990474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f0f23f9d79cde00800000000000000
+      internalID: 1070897773750980353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1406c1845315763e0800000000000000
+      internalID: -2060589015213776831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383f46d7a6de24640800000000000000
+      internalID: 5062869972743943043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2050a4492518c9210800000000000000
+      internalID: 1341088980724745474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d95e3ae3efb43e0800000000000000
+      internalID: -2068280058855449321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023523889aca05ae0800000000000000
+      internalID: -1562559226563112160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa03019ea8fbea00800000000000000
+      internalID: 786995988547177203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692e785b16a9eae10800000000000000
+      internalID: 2210874211533578902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c33c9b845a7c1a0800000000000000
+      internalID: -6789276181464925099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_24
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e7415f19acc730800000000000000
+      internalID: 4020774519307755762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507195e3d81c45110800000000000000
+      internalID: 1248835809069045509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_26
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ecdae82c87769d0800000000000000
+      internalID: -2781121467865248189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d2ddfcc08d62b80800000000000000
+      internalID: -8419804903783977621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e63bd33ce438390800000000000000
+      internalID: -7817317927724290544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f117c302671d32660800000000000000
+      internalID: 7359956521330700575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127616ed789fe8950800000000000000
+      internalID: 6453369678015325985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbadc1a01bb608730800000000000000
+      internalID: 3999314877228047035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dce181146f65fed0800000000000000
+      internalID: -2380874352414298927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e11411be5e02dd60800000000000000
+      internalID: 7913403295103980005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_45
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1d4accdc9bea800800000000000000
+      internalID: 625641691803865576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caccaaaac37e06c0800000000000000
+      internalID: -4175272490241832256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_47
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96ccf010f8bb28a0800000000000000
+      internalID: -6328761510122436961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_48
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409d1f46546bf29d0800000000000000
+      internalID: -2796816434411218684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_58
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 116
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e3bf1b916056050800000000000000
+      internalID: 5793043203111992974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_59
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5d8297b01fa72c0800000000000000
+      internalID: -4432965851613178384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_60
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 112
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18554a1671f558270800000000000000
+      internalID: 8252106446253348225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_61
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 112
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8796a0d1f6f07c760800000000000000
+      internalID: 7477962676175006072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_62
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e221cc7cc2fa1c80800000000000000
+      internalID: -8351095598924881179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 92
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37ee81666977bc40800000000000000
+      internalID: 5528020548250953531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_64
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 92
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5219ee36fa77e3580800000000000000
+      internalID: -8845501022929514203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_65
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 76
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24cb3d1c9d4c77e0800000000000000
+      internalID: -1766451620935384018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_66
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 72
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482e175e049ad2ad0800000000000000
+      internalID: -2725336103296834940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_67
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 72
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2fca721493fcee0800000000000000
+      internalID: -1238708420502293785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_68
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1300beb2ddeeeaa40800000000000000
+      internalID: 5381501238446325809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe89cac98f01f09e0800000000000000
+      internalID: -1653083878255191825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_70
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bae470aa9b5d6e0800000000000000
+      internalID: -1813339135028581533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_71
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2853c08b216b800800000000000000
+      internalID: 627709779752878843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_72
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f822b3ed5af25490800000000000000
+      internalID: -7758863926846936841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_73
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bb3d6a8e24ea190800000000000000
+      internalID: -7949342725263607037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_74
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd93bc33ea5a1bd00800000000000000
+      internalID: 986751960982698460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_75
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c6ba49bf65eef20800000000000000
+      internalID: 3453793602770791512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_76
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 56
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116968751d31a74a0800000000000000
+      internalID: -6594936914493139439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_77
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 56
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb92e09e9cd31b6d0800000000000000
+      internalID: -2976529941307446849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_78
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 29
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c55c86abc12bd50800000000000000
+      internalID: 6751490378329054235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_79
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 29
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d844bc3645a868e00800000000000000
+      internalID: 1046676058466370701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 29
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b20e4389d1e81960800000000000000
+      internalID: 7573051097750569652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_81
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 29
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9c0464be841f580800000000000000
+      internalID: -8795168421944702497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_82
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4827555b69fb66ea0800000000000000
+      internalID: -5879801609477328252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_83
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 5
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5982987467bdcda0800000000000000
+      internalID: -5922876292774852257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blockbuster Spritesheets_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 5
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01b2a1f9656f3a10800000000000000
+      internalID: 1891341874218840335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
