@@ -2,23 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * Block script handles the block logic to track several variables and states, followed by death upon collision functionality. Tired bad description 'iKnow'
+ */
+
+
 public class Block : MonoBehaviour
 {
-    /*
-     * Block script handles the block logic to allow a lifepoint system, followed by death upon collision.
-     */
-
     Animator _animator;
     
-    [SerializeField] int lifePoints = 1;
-    [SerializeField] int pointWorthAmount = 10;
+    [Header("Block Stats")]
+    [SerializeField] int lifePoints = 3;
+    [SerializeField] int pointWorthAmount = 1000;
     [SerializeField] GameObject deathExplosion; //Lets create a dependancy, why not. We've been good with our coding so far. This is plugged in VIA Inspector.
 
-    private bool isShaking = false;
+    private bool isShaking = false; //Logic Check Variable for preventing overflowing of the shake coroutine 
 
     private void Start()
     {
-        if (GetComponent<Animator>() == null) { return; }
+        GameSession.AddBlockToList();
         _animator = GetComponent<Animator>();
     }
 
@@ -35,7 +38,7 @@ public class Block : MonoBehaviour
         {
             lifePoints--;
         
-            if (lifePoints > 0) //Prevents bug when block dies too fast and tries to recall coroutine
+            if (lifePoints > 0) //Quick check prevents error when block dies too fast and tries to recall coroutine
             {
                 StartCoroutine("StartShakeEffect");
             }
@@ -47,12 +50,19 @@ public class Block : MonoBehaviour
     {
         if(lifePoints <= 0)
         {
+            //Hides this object upon death before eliminating to run more logic behind the scenes
             this.gameObject.SetActive(false);
+
+            //Adds the score of this block to the players High Score
             GameSession.AddToScore(pointWorthAmount);
             
             //Creates a instance of this effect to keep from destroying when this gameObject dies
-            GameObject starDeathExplosion = Instantiate(deathExplosion, this.transform.position, Quaternion.identity) as GameObject; 
+            GameObject starDeathExplosion = Instantiate(deathExplosion, this.transform.position, Quaternion.identity) as GameObject;
+
+            //Removes the block from the game session list to keep track of win condition
+            GameSession.RemoveBlockFromList();
             
+            //Garbage collecter
             Destroy(this.gameObject, .03f);
         }
     }

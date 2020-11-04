@@ -29,12 +29,4 @@ public class Ball : MonoBehaviour
         _rgbd2.velocity = Vector3.ClampMagnitude(_rgbd2.velocity, clampRange);
     }
 
-    //TODO: Create an Instantiate Algorithm to respawn the ball when the ball gets destroyed
-    //TODO: Create an algorithm to determine when the player is out of lives and call Gameover
-    //TODO: Implement power ups and heart ups
-
-    private void OnDestroy()
-    {
-
-    }
 }
