@@ -15,7 +15,13 @@ public class Block : MonoBehaviour
     [Header("Block Stats")]
     [SerializeField] int lifePoints = 3;
     [SerializeField] int pointWorthAmount = 1000;
+    
+    [Header("Death GameObject")]
     [SerializeField] GameObject deathExplosion; //Lets create a dependancy, why not. We've been good with our coding so far. This is plugged in VIA Inspector.
+
+    [Header("PowerUp Information")]
+    [SerializeField] bool canSpawnPowerUps = false;
+    [SerializeField] GameObject powerUpObject;
 
     private bool isShaking = false; //Logic Check Variable for preventing overflowing of the shake coroutine 
 
@@ -58,6 +64,11 @@ public class Block : MonoBehaviour
             
             //Creates a instance of this effect to keep from destroying when this gameObject dies
             GameObject starDeathExplosion = Instantiate(deathExplosion, this.transform.position, Quaternion.identity) as GameObject;
+            
+            if (canSpawnPowerUps)
+            {
+                SpawnPowerUp();
+            }
 
             //Removes the block from the game session list to keep track of win condition
             GameSession.RemoveBlockFromList();
@@ -79,6 +90,14 @@ public class Block : MonoBehaviour
 
             _animator.SetBool("WasHit", false);
             isShaking = false;
+        }
+    }
+
+    private void SpawnPowerUp()
+    {
+        if(Random.Range(0, 1) >= 0)
+        {
+            GameObject powerUp = Instantiate(powerUpObject, this.transform.position, Quaternion.identity) as GameObject;
         }
     }
 }

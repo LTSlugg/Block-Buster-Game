@@ -7,6 +7,8 @@ TagManager:
   - Paddle
   - Ball
   - Block
+  - PowerUps
+  - PlayerPaddle
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - PowerUps
+  - Player
   - 
   - 
   - 
