@@ -135,3 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typeOfPowerUp: 2
+  healthUpAmount: 1
+  speedUpTimer: 8
+  minionBallObject: {fileID: 3519698350392941921, guid: 07186d2b9b51f6e4fae9e360b42e46fc,
+    type: 3}

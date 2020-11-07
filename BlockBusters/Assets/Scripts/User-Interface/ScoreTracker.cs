@@ -16,7 +16,13 @@ public class ScoreTracker : MonoBehaviour
     {
         scoreText = GetComponent<TextMeshProUGUI>();
         GameSession.eScoreChange += ScoreTextUpdate;
-        scoreText.text = GameSession.scoreAmount.ToString();
+        
+        if(GameSession.scoreAmount <= 0)
+        {
+            scoreText.text = "0000000";
+        }
+        else
+            scoreText.text = GameSession.scoreAmount.ToString();
     }
 
     //Listener: Updates the score on score change

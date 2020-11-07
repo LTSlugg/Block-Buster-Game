@@ -11,6 +11,11 @@ https://opengameart.org/content/industrial-parallax-background
 
 
 
+Font - 8Bit Wonder from Courtesy of Joiro Hatgaya:
+		Public Domain
+https://www.dafont.com/8bit-wonder.font
+
+
 
 Death Effects created by me Luis 'LTSlugg' Troncoso using Pixel VFX Designer.
 BlockBusters - By Luis 'LTSlugg' Troncoso using Unity Engine v2019.4.3f1

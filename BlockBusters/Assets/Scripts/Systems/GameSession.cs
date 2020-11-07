@@ -11,8 +11,7 @@ using UnityEngine;
  */
 
 
-//TODO: Create Game Over and Start Screen
-//TODO: Implement power ups and heart ups
+//TODO: Add Polish (Effects), Audio Manager, Create Levels, and Screen Transitions, Maybe Victory Screen
 
 public static class GameSession
 {
@@ -20,9 +19,11 @@ public static class GameSession
     public static event Action eHealthIncrease;
     public static event Action eHealthDecrease;
     
-    public static int scoreAmount = 0000; //Tracker of the players score points
+    public static int scoreAmount = 0; //Tracker of the players score points
     public static int healthPoints = 3; //Tracker of the players health points
     private static int blocksInGame = 0; //Tracker of the amount of Blocks in the Game
+    public static int respawnTimer = 3;
+
 
     //Simple way to keep track of the current Level to help Load the correct Scene
     private enum CurrentLevel
@@ -82,23 +83,30 @@ public static class GameSession
         if(DidPlayerLose) //Will reset the game
         { 
             SceneManager.GameOver();
-            currentLvl = CurrentLevel.Level1;
             return;
         }
 
         switch (currentLvl)
         {
             case CurrentLevel.Level1:
-                SceneManager.ChangeScene("Level2_Mountain");
+                SceneManager.ChangeScene(Levels.Level2_Mountains.ToString());
                 currentLvl = CurrentLevel.Level2;
                 break;
             case CurrentLevel.Level2:
-                SceneManager.ChangeScene("Level3_City");
+                SceneManager.ChangeScene(Levels.Level3_City.ToString());
                 currentLvl = CurrentLevel.Level3;
                 break;
             case CurrentLevel.Level3:
-                SceneManager.ChangeScene("GameOverWon");
+                SceneManager.GameOver();
                 break;
         }
+    }
+
+    public static void ResetGameSession()
+    {
+        healthPoints = 3;
+        scoreAmount = 0;
+        blocksInGame = 0;
+        currentLvl = CurrentLevel.Level1;
     }
 }

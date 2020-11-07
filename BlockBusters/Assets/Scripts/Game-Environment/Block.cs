@@ -27,7 +27,8 @@ public class Block : MonoBehaviour
 
     private void Start()
     {
-        GameSession.AddBlockToList();
+        if (!canSpawnPowerUps) { GameSession.AddBlockToList(); }
+        
         _animator = GetComponent<Animator>();
     }
 
@@ -64,14 +65,12 @@ public class Block : MonoBehaviour
             
             //Creates a instance of this effect to keep from destroying when this gameObject dies
             GameObject starDeathExplosion = Instantiate(deathExplosion, this.transform.position, Quaternion.identity) as GameObject;
+                
+            //Spawn Powerup if Powerup Block
+            if (canSpawnPowerUps) { SpawnPowerUp(); }
             
-            if (canSpawnPowerUps)
-            {
-                SpawnPowerUp();
-            }
-
-            //Removes the block from the game session list to keep track of win condition
-            GameSession.RemoveBlockFromList();
+            //Removes the block from the game session list to keep track of win condition, wont track powerup Blocks
+            else if (!canSpawnPowerUps) { GameSession.RemoveBlockFromList(); }
             
             //Garbage collecter
             Destroy(this.gameObject, .03f);

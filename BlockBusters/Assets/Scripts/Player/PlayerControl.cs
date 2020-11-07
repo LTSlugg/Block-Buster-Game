@@ -8,9 +8,33 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    Rigidbody2D _rgbd2;
-    [SerializeField]float moveSpeed = 12f; //Default MoveSpeed
+    public Rigidbody2D _rgbd2;
+
+    [SerializeField] public Transform spawnPOS;
+    [SerializeField] float moveSpeed = 12f; //Default MoveSpeed
+    private bool isSpedUp = false;
+
+
+
+    #region Singleton
+    private static PlayerControl _instance;
+    public static PlayerControl Instance { get { return _instance; } }
+
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
+    #endregion
     
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,5 +54,31 @@ public class PlayerControl : MonoBehaviour
     {
         _rgbd2.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), 0);
         transform.eulerAngles = new Vector3(0, 0, Input.GetAxisRaw("Horizontal") * -10);
+
+        if(Input.GetKey(KeyCode.Space))
+        {
+            Ball.Instance.ReleaseBall();
+        }
+    }
+
+
+    //A simple coroutine call to increase the movement speed of the Paddle when it picks up a speed buff called by the powerups script
+    public void DoSpeedBuff(float SpeedUpTime)
+    {
+        StartCoroutine(SpeedUpBuff(SpeedUpTime));
+    }
+    IEnumerator SpeedUpBuff(float SpeedUpTime)
+    {
+        if (!isSpedUp)
+        {
+            isSpedUp = true;
+            float defaultMoveSpeed = moveSpeed;
+            moveSpeed *= 2;
+
+            yield return new WaitForSeconds(SpeedUpTime);
+
+            moveSpeed = defaultMoveSpeed;
+            isSpedUp = false;
+        }
     }
 }
