@@ -21,6 +21,7 @@ public static class SceneManager
     public static void ReturnToStartScreen()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("StartScreen");
+        GameSession.ResetGameSession();
     }
 
     //Changes scene to whatever string is parsed through
@@ -33,6 +34,5 @@ public static class SceneManager
     public static void GameOver()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
-        GameSession.ResetGameSession();
     }
 }
