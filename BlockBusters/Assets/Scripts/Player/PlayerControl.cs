@@ -68,14 +68,15 @@ public class PlayerControl : MonoBehaviour
             _rgbd2.velocity = new Vector2(moveSpeed * jStick.Horizontal, 0);
             transform.eulerAngles = new Vector3(0, 0, jStick.Horizontal * -10);
         }
-         foreach (var touch in Input.touches)
+        if (Input.touchCount == 1)
         {
-            if (touch.tapCount == 2)
+            if (Input.GetTouch(0).phase == TouchPhase.Began)
             {
                 Ball.Instance.ReleaseBall();
             }
         }
     }
+
 
     //A simple coroutine call to increase the movement speed of the Paddle when it picks up a speed buff called by the powerups script
     public void DoSpeedBuff(float SpeedUpTime)
