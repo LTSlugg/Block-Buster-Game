@@ -23,6 +23,9 @@ public class Block : MonoBehaviour
     [SerializeField] bool canSpawnPowerUps = false;
     [SerializeField] GameObject powerUpObject;
 
+    [Header("Audio Information")]
+    [SerializeField] AudioClip audioClip;
+
     private bool isShaking = false; //Logic Check Variable for preventing overflowing of the shake coroutine 
 
     private void Start()
@@ -44,7 +47,8 @@ public class Block : MonoBehaviour
         if (collision.tag == "Ball" || collision.tag == "MinionBall")
         {
             lifePoints--;
-        
+            SoundManager.Instance.PlayAudioClip(audioClip); //calls on the soundmanager to player a clip when hit
+            
             if (lifePoints > 0) //Quick check prevents error when block dies too fast and tries to recall coroutine
             {
                 StartCoroutine("StartShakeEffect");

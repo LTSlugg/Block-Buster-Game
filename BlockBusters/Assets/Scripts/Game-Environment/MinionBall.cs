@@ -9,7 +9,7 @@ using UnityEngine;
 public class MinionBall : MonoBehaviour
 {
     private Rigidbody2D _rgbd2;
-    private float clampRange = 15f;
+    private float clampRange = 10f;
 
     // Start is called before the first frame update
     void Start()

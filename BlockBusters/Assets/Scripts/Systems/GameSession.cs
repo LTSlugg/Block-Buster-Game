@@ -11,8 +11,6 @@ using UnityEngine;
  */
 
 
-//TODO: Add Polish (Effects), Audio Manager, Create Levels, and Screen Transitions, Maybe Victory Screen
-
 public static class GameSession
 {
     public static event Action eScoreChange;
@@ -52,7 +50,7 @@ public static class GameSession
     {
         healthPoints -= RemoveAmount;
         eHealthDecrease();
-
+        SoundManager.Instance.PlayDeathAudioClip();
         if(healthPoints <= 0)
         {
             LevelChange(true);
@@ -90,6 +88,7 @@ public static class GameSession
         {
             case CurrentLevel.Level1:
                 SceneManager.ChangeScene(Levels.Level2_Mountains.ToString());
+                Cursor.visible = false;
                 currentLvl = CurrentLevel.Level2;
                 break;
             case CurrentLevel.Level2:
@@ -97,7 +96,7 @@ public static class GameSession
                 currentLvl = CurrentLevel.Level3;
                 break;
             case CurrentLevel.Level3:
-                SceneManager.GameOver();
+                SceneManager.ChangeScene(Levels.VictoryScreen.ToString()); //On game End Changes to the Victory Screen
                 break;
         }
     }

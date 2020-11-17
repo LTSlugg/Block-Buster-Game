@@ -15,7 +15,6 @@ public class DeathTrigger : MonoBehaviour
         if(collision.tag == "Ball")
         {
             GameSession.DecreaseHealth(1); //Decrease the Overall health of the Player via GameSession
-
             StartCoroutine(RespawnBall()); //Respawns the Ball
         }
         if (collision.tag == "MinionBall")

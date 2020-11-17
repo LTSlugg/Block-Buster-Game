@@ -208,3 +208,4 @@ MonoBehaviour:
   canSpawnPowerUps: 1
   powerUpObject: {fileID: 2995967363923741990, guid: 23ab5fc5c12ffbc45b7f5c78ac002f18,
     type: 3}
+  audioClip: {fileID: 8300000, guid: deede257a405e474a8342d6f71f97f6f, type: 3}

@@ -207,3 +207,4 @@ MonoBehaviour:
     type: 3}
   canSpawnPowerUps: 0
   powerUpObject: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: deede257a405e474a8342d6f71f97f6f, type: 3}

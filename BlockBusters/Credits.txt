@@ -1,21 +1,26 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Breakout Blocks Courtesy of Buch and Collaborators: 
 		Public Domain
 https://opengameart.org/content/breakout-set
-
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Background Images and Environment Courtesy of Ansimuz:
 		Public Domain
 https://opengameart.org/content/forest-background
 https://opengameart.org/content/mountain-at-dusk-background
 https://opengameart.org/content/industrial-parallax-background
-
-
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Font - 8Bit Wonder from Courtesy of Joiro Hatgaya:
 		Public Domain
 https://www.dafont.com/8bit-wonder.font
-
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SFX - Courtesy of Kenney
+		Impact Sounds
+www.kenney.nl
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Music - Courtesy of Alexander Ehlers
+	Free Music Pack
+https://opengameart.org/content/free-music-pack
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Death Effects created by me Luis 'LTSlugg' Troncoso using Pixel VFX Designer.
-BlockBusters - By Luis 'LTSlugg' Troncoso using Unity Engine v2019.4.3f1
+BlockBusters - By Luis 'LTSlugg' Troncoso using Unity Engine v2019.4.14f1

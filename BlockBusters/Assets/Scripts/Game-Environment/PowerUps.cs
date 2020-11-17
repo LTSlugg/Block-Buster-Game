@@ -19,10 +19,11 @@ public class PowerUps : MonoBehaviour
     [SerializeField]TypeOfPowerup typeOfPowerUp; //Used to allow inspector selection of the type of PowerUp
 
     [Header("PowerUp Specific Attributes")]
+    [SerializeField] GameObject pickupVFX;
     [SerializeField][Range (1, 3)] int healthUpAmount = 1;
     [SerializeField][Range(8, 20)]  float speedUpTimer = 8;
     [SerializeField] GameObject minionBallObject;
-
+    [SerializeField] AudioClip audioClip;
 
     //Logic Algorithm for PowerUps on Collision Trigger with PlayerPaddle
     private void OnTriggerEnter2D(Collider2D collision)
@@ -44,8 +45,9 @@ public class PowerUps : MonoBehaviour
                     Ball.Instance.ResetBall();
                     break;
             }
-
+            SoundManager.Instance.PlayAudioClip(audioClip); //Plays the associated audioclip
             Destroy(this.gameObject);
+            GameObject newPickupVFX = Instantiate(pickupVFX, PlayerControl.Instance.transform.position, Quaternion.identity);
         }
     }
 
@@ -53,7 +55,7 @@ public class PowerUps : MonoBehaviour
     {
         for (int i = 0; i < AmountToSpawn; i++)
         {
-            GameObject MinionBall = Instantiate(minionBallObject, Ball.Instance.transform.position, Quaternion.identity) as GameObject;
+            GameObject MinionBall = Instantiate(minionBallObject, PlayerControl.Instance.spawnPOS.position, Quaternion.identity) as GameObject;
         }
     }
 }

@@ -12,6 +12,8 @@ public class Ball : MonoBehaviour
     private float clampRange = 10f;
     private bool isReleased = false;
 
+    [SerializeField] AudioClip spawnAudioClip;
+
     #region Singleton
     private static Ball _instance;
     public static Ball Instance { get { return _instance; } }
@@ -44,11 +46,16 @@ public class Ball : MonoBehaviour
         DefaultBallPosition();
     }
 
+
     //This algorithm keeps the Ball from bouncing its rigidbody velocity above the clampRange variable
     private void ClampMoveVelocity()
     {
-        _rgbd2.velocity = Vector3.ClampMagnitude(_rgbd2.velocity, clampRange);
+        if (PlayerControl.Instance.isSpedUp)
+            { _rgbd2.velocity = Vector3.ClampMagnitude(_rgbd2.velocity, clampRange*1.3f); }
+        else
+            _rgbd2.velocity = Vector3.ClampMagnitude(_rgbd2.velocity, clampRange);
     }
+
 
     //Sets the Ball Position to SpawnPosition on the Paddle
     private void DefaultBallPosition()
@@ -57,17 +64,20 @@ public class Ball : MonoBehaviour
         { this.transform.position = PlayerControl.Instance.spawnPOS.position; } //Sets the position of the ball to the SpawnPosition if the ball is not released
     }
 
+
     //Releases the Ball when called
     public void ReleaseBall()
     {
         if (!isReleased) //On Space Press releases the ball
         {
             isReleased = true;
+            SoundManager.Instance.PlayAudioClip(spawnAudioClip);
             //Sets starting speed once the ball is Released to the Clamp Range (Top Speed) on Y and player move direction vel
             _rgbd2.velocity = new Vector2(PlayerControl.Instance._rgbd2.velocity.x, clampRange); 
         }
     }
   
+
     //Resets the Balls Position and Speed to Default
     public void ResetBall()
     {
@@ -76,6 +86,7 @@ public class Ball : MonoBehaviour
         if (!this.gameObject.activeSelf) { Ball.Instance.gameObject.SetActive(true); }
         isReleased = false;
     }
+
 
     //Resets the release state of the ball
     private void OnDestroy()

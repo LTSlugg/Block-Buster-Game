@@ -135,7 +135,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typeOfPowerUp: 2
+  pickupVFX: {fileID: 8017085055504275612, guid: 83268d0ec6a81954696dfca3dd0f80a5,
+    type: 3}
   healthUpAmount: 1
   speedUpTimer: 8
   minionBallObject: {fileID: 3519698350392941921, guid: 07186d2b9b51f6e4fae9e360b42e46fc,
     type: 3}
+  audioClip: {fileID: 8300000, guid: c5b572b55cc0fda488630149c524b593, type: 3}

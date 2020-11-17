@@ -11,8 +11,8 @@ public class PlayerControl : MonoBehaviour
     public Rigidbody2D _rgbd2;
 
     [SerializeField] public Transform spawnPOS;
-    [SerializeField] float moveSpeed = 12f; //Default MoveSpeed
-    private bool isSpedUp = false;
+    [SerializeField] float moveSpeed = 13f; //Default MoveSpeed
+    public bool isSpedUp = false;
 
 
 
@@ -73,7 +73,7 @@ public class PlayerControl : MonoBehaviour
         {
             isSpedUp = true;
             float defaultMoveSpeed = moveSpeed;
-            moveSpeed *= 2;
+            moveSpeed *= 1.8f;
 
             yield return new WaitForSeconds(SpeedUpTime);
 
