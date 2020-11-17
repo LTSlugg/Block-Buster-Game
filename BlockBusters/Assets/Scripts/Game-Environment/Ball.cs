@@ -12,8 +12,6 @@ public class Ball : MonoBehaviour
     private float clampRange = 10f;
     private bool isReleased = false;
 
-    [SerializeField] AudioClip spawnAudioClip;
-
     #region Singleton
     private static Ball _instance;
     public static Ball Instance { get { return _instance; } }
@@ -71,7 +69,7 @@ public class Ball : MonoBehaviour
         if (!isReleased) //On Space Press releases the ball
         {
             isReleased = true;
-            SoundManager.Instance.PlayAudioClip(spawnAudioClip);
+            SoundManager.Instance.PlayBlockDeathAudioClip(); //Calls on the soundmanager to player a clip when hit
             //Sets starting speed once the ball is Released to the Clamp Range (Top Speed) on Y and player move direction vel
             _rgbd2.velocity = new Vector2(PlayerControl.Instance._rgbd2.velocity.x, clampRange); 
         }

@@ -32,6 +32,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField] AudioClip gameOverAudioClip;
     [SerializeField] AudioClip victoryAudioClip;
     [SerializeField] AudioClip startAudioClip;
+    [SerializeField] AudioClip blockDeathAudioClip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,16 +54,21 @@ public class SoundManager : MonoBehaviour
 
     public void PlayGameOverAudioClip()
     {
-        audioSource.PlayOneShot(gameOverAudioClip);
+        audioSource.PlayOneShot(gameOverAudioClip, .7f);
     }
 
     public void PlayVictoryAudioClip()
     {
-        audioSource.PlayOneShot(victoryAudioClip);
+        audioSource.PlayOneShot(victoryAudioClip, .7f);
     }
 
     public void PlayStartAudioClip()
     {
         audioSource.PlayOneShot(startAudioClip);
+    }
+
+    public void PlayBlockDeathAudioClip()
+    {
+        audioSource.PlayOneShot(blockDeathAudioClip);
     }
 }

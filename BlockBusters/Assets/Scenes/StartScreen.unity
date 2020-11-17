@@ -542,6 +542,7 @@ MonoBehaviour:
   gameOverAudioClip: {fileID: 8300000, guid: 680875333200f9348bb18feaed534fc2, type: 3}
   victoryAudioClip: {fileID: 8300000, guid: f8878b1a50d4b624d91992561e990146, type: 3}
   startAudioClip: {fileID: 8300000, guid: 4cae73a876606554a9d461980ea638ae, type: 3}
+  blockDeathAudioClip: {fileID: 8300000, guid: deede257a405e474a8342d6f71f97f6f, type: 3}
 --- !u!1 &287531509
 GameObject:
   m_ObjectHideFlags: 0

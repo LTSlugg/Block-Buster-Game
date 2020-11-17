@@ -59,7 +59,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5220685673060239537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.87, y: -4.15, z: 0}
+  m_LocalPosition: {x: 0, y: -4.5, z: 0}
   m_LocalScale: {x: 1.25, y: 1.1, z: 1}
   m_Children:
   - {fileID: 1181468082}
@@ -186,6 +186,8 @@ MonoBehaviour:
   _rgbd2: {fileID: 0}
   spawnPOS: {fileID: 1181468082}
   moveSpeed: 12
+  jStick: {fileID: 0}
+  isSpedUp: 0
 --- !u!114 &5220685673060239531
 MonoBehaviour:
   m_ObjectHideFlags: 0
