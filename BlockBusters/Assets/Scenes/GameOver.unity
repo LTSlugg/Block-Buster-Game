@@ -912,6 +912,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f5de43b65f5b042b42db9dc7f33ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settingsVolumeAnim: {fileID: 0}
+  audioMixer: {fileID: 0}
 --- !u!1 &1193815950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,6 +1100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f5de43b65f5b042b42db9dc7f33ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settingsVolumeAnim: {fileID: 0}
+  audioMixer: {fileID: 0}
 --- !u!114 &1193815955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1217,7 +1221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Score-
+  m_text: Final Score
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eba6f455a8406de45bd55014b84a5df6, type: 2}
   m_sharedMaterial: {fileID: 8100910352841936939, guid: eba6f455a8406de45bd55014b84a5df6,
@@ -1287,14 +1291,14 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1308032832}
-    characterCount: 6
+    characterCount: 11
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1659,6 +1663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f5de43b65f5b042b42db9dc7f33ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settingsVolumeAnim: {fileID: 0}
+  audioMixer: {fileID: 0}
 --- !u!114 &1560280988
 MonoBehaviour:
   m_ObjectHideFlags: 0
