@@ -12,6 +12,7 @@ public class PlayerControl : MonoBehaviour
 
     [SerializeField] public Transform spawnPOS;
     [SerializeField] float moveSpeed = 13f; //Default MoveSpeed
+    [SerializeField]Joystick jStick;
     public bool isSpedUp = false;
 
 
@@ -52,12 +53,27 @@ public class PlayerControl : MonoBehaviour
     //Will also slightly rotate the player depending on the direction they are moving
     private void InputChecker()
     {
+        //Keyboard and Mouse Controls
         _rgbd2.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), 0);
         transform.eulerAngles = new Vector3(0, 0, Input.GetAxisRaw("Horizontal") * -10);
 
         if(Input.GetKey(KeyCode.Space))
         {
             Ball.Instance.ReleaseBall();
+        }
+
+        //Mobile Controls
+        if (Mathf.Abs(jStick.Horizontal) > Mathf.Epsilon)
+        {
+            _rgbd2.velocity = new Vector2(moveSpeed * jStick.Horizontal, 0);
+            transform.eulerAngles = new Vector3(0, 0, jStick.Horizontal * -10);
+        }
+        if (Input.touchCount == 1)
+        {
+            if (Input.GetTouch(0).phase == TouchPhase.Began)
+            {
+                Ball.Instance.ReleaseBall();
+            }
         }
     }
 

@@ -2702,7 +2702,7 @@ Transform:
   - {fileID: 853374036}
   - {fileID: 1966916441}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1692689134
 PrefabInstance:
@@ -2999,6 +2999,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1884608305}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1935916335 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5445686710942545776, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3794409323886505421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba0d0e7a039f526499c356a3c5cd6d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1960693284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3482,6 +3494,48 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 7132659597529665671, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 257
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132659597529665671, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132659597529665688, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b8467ea5fbaf9ba42908de6411bd443d,
+        type: 3}
+    - target: {fileID: 7132659598227067886, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7927b9032dc11e841af3f9a1353d7ecd,
+        type: 3}
+    - target: {fileID: 7132659599267738545, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+        type: 3}
+      propertyPath: snapX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132659599267738545, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+        type: 3}
+      propertyPath: axisOptions
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132659599267738546, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7132659599267738546, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2930f97dbf4ff0c42bf269e566004fd9, type: 3}
 --- !u!1001 &4085242754398684195
@@ -3534,7 +3588,7 @@ PrefabInstance:
     - target: {fileID: 4085242752702178314, guid: e59b3439a6657b84f9eaee03827882f8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4085242752702178314, guid: e59b3439a6657b84f9eaee03827882f8,
         type: 3}
@@ -3570,6 +3624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerPaddle
       objectReference: {fileID: 0}
+    - target: {fileID: 5220685673060239541, guid: 6c7b49b69ee2b4b4a9dccf96498a3273,
+        type: 3}
+      propertyPath: jStick
+      value: 
+      objectReference: {fileID: 1935916335}
     - target: {fileID: 5220685673060239543, guid: 6c7b49b69ee2b4b4a9dccf96498a3273,
         type: 3}
       propertyPath: m_LocalPosition.x
