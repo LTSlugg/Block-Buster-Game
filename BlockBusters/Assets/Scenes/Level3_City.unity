@@ -3799,6 +3799,18 @@ PrefabInstance:
       objectReference: {fileID: 519420031}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2930f97dbf4ff0c42bf269e566004fd9, type: 3}
+--- !u!114 &3794409323886505422 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5445686710942545776, guid: 2930f97dbf4ff0c42bf269e566004fd9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3794409323886505421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba0d0e7a039f526499c356a3c5cd6d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4085242754398684195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3885,6 +3897,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerPaddle
       objectReference: {fileID: 0}
+    - target: {fileID: 5220685673060239541, guid: 6c7b49b69ee2b4b4a9dccf96498a3273,
+        type: 3}
+      propertyPath: jStick
+      value: 
+      objectReference: {fileID: 3794409323886505422}
     - target: {fileID: 5220685673060239543, guid: 6c7b49b69ee2b4b4a9dccf96498a3273,
         type: 3}
       propertyPath: m_LocalPosition.x
